@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+       function changecolor(){
+        let c1 = document.getElementById("Text");
+         c1.style.color ="green";
+
+       }
+
+       function changecolor2(){
+        let c2 = document.getElementById("Text2");
+         c2.style.color ="green";
+       }
+
+       function changecolor3(){
+        let c3 = document.getElementById("Text3");
+         c3.style.color ="green";
+       }
+    </script>
+
+    <style>
+      .text2{
+        width: 60px;
+      }
+      .text3{
+        width: 100px;
+      }
+    </style>
+</head>
+<body>
+    <form action="#">
+        Name: <input type="text"id="Text" class="text1" onmouseout="changecolor()"><br>
+        Age: <input type="text"id="Text2" class="text2" onmouseout="changecolor2()"><br>
+        Birthdate: <input type="text" id="Text3" class="text3" onmouseout="changecolor3()"><br>
+    </form>
+</body>
+</html>
